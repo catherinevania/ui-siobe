@@ -4,7 +4,7 @@ module.exports = {
   content: 
     [
       "./index.html", "./src/**/*.{js,ts,jsx,tsx,vue}",
-      "./node_modules/flowbite/**/*.js"
+      // "./node_modules/flowbite/**/*.js"
     ],
   theme: {
     extend: {
@@ -17,4 +17,5 @@ module.exports = {
       require('flowbite/plugin')
   ]
   }
+>>>>>>> ff0d419ff7e828e89b1134ce75f448ce6dff6956
 };
