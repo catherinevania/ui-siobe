@@ -1,7 +1,11 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: 
+    [
+      "./index.html", "./src/**/*.{js,ts,jsx,tsx}",
+      "./node_modules/flowbite/**/*.js"
+    ],
   theme: {
     extend: {
 			fontFamily: {
@@ -9,5 +13,8 @@ module.exports = {
 		},
 		},
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require("daisyui"),
+    require('flowbite/plugin')
+  ]
 };
