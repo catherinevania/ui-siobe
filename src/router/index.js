@@ -17,48 +17,53 @@ const router = createRouter({
     },
     {
       path: "/create-faculty",
-      name: "faculty",
+      name: "create faculty",
 			component: CreateFacultyView
     },
     {
       path: "/read-faculty",
-      name: "faculty",
+      name: "read faculty",
 			component: ReadFacultyView
     },
     {
       path: "/update-faculty",
-      name: "faculty",
+      name: "update faculty",
 			component: UpdateFacultyView
     },
     {
-      path: "/deletefaculty",
-      name: "faculty",
+      path: "/delete-faculty",
+      name: "delete faculty",
 			component: DeleteFacultyView
     },
     {
-      path: "/faculty",
-      name: "faculty",
+      path: "/llo",
+      name: "llo",
 			component: FacultyView
     },
     {
       path: "/create-llo",
-      name: "llo",
+      name: "create llo",
 			component: CreateLLOView
     },
     {
       path: "/read-llo",
-      name: "llo",
+      name: "read llo",
 			component: ReadLLOView
     },
     {
       path: "/update-llo",
-      name: "llo",
+      name: "update llo",
 			component: UpdateLLOView
     },
     {
       path: "/delete-llo",
-      name: "llo",
+      name: "delete llo",
 			component: DeleteLLOView
+    },
+    {
+      path: '/show-assignment',
+      name: 'detail assignment',
+      component: DetailAssignmentView
     },
   ]
 })
