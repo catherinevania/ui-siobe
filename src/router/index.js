@@ -1,14 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import FacultyView from "../views/FacultyView.vue";
-import CreateFacultyView from "../views/CreateFacultyView.vue";
-import ReadFacultyView from "../views/ReadFacultyView.vue";
-import UpdateFacultyView from "../views/UpdateFacultyView.vue";
-import DeleteFacultyView from "../views/DeleteFacultyView.vue";
+// import CreateFacultyView from "../views/CreateFacultyView.vue";
+// import ReadFacultyView from "../views/ReadFacultyView.vue";
+// import UpdateFacultyView from "../views/UpdateFacultyView.vue";
+// import DeleteFacultyView from "../views/DeleteFacultyView.vue";
 import LLOView from "../views/LLOView.vue";
-import CreateLLOView from "../views/CreateLLOView.vue";
-import ReadLLOView from "../views/ReadLLOView.vue";
-import UpdateLLOView from "../views/UpdateLLOyView.vue";
-import DeleteLLOView from "../views/DeleteLLOView.vue";
+// import CreateLLOView from "../views/CreateLLOView.vue";
+// import ReadLLOView from "../views/ReadLLOView.vue";
+// import UpdateLLOView from "../views/UpdateLLOyView.vue";
+// import DeleteLLOView from "../views/DeleteLLOView.vue";
 import DetailAssignmentView from "../views/DetailAssignmentView.vue";
 
 
