@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import DashboardView from "../views/Dashboard.vue";
 import FacultyView from "../views/FacultyView.vue";
+import LLOView from "../views/LloView.vue";
 // import CreateFacultyView from "../views/CreateFacultyView.vue";
 // import ReadFacultyView from "../views/ReadFacultyView.vue";
 // import UpdateFacultyView from "../views/UpdateFacultyView.vue";
@@ -26,51 +27,51 @@ const router = createRouter({
       name: "faculty",
 			component: FacultyView
     },
-    {
-      path: "/create-faculty",
-      name: "create faculty",
-			component: CreateFacultyView
-    },
-    {
-      path: "/read-faculty",
-      name: "read faculty",
-			component: ReadFacultyView
-    },
-    {
-      path: "/update-faculty",
-      name: "update faculty",
-			component: UpdateFacultyView
-    },
-    {
-      path: "/delete-faculty",
-      name: "delete faculty",
-			component: DeleteFacultyView
-    },
+    // {
+    //   path: "/create-faculty",
+    //   name: "create faculty",
+		// 	component: CreateFacultyView
+    // },
+    // {
+    //   path: "/read-faculty",
+    //   name: "read faculty",
+		// 	component: ReadFacultyView
+    // },
+    // {
+    //   path: "/update-faculty",
+    //   name: "update faculty",
+		// 	component: UpdateFacultyView
+    // },
+    // {
+    //   path: "/delete-faculty",
+    //   name: "delete faculty",
+		// 	component: DeleteFacultyView
+    // },
     {
       path: "/llo",
       name: "llo",
 			component: LLOView
     },
-    {
-      path: "/create-llo",
-      name: "create llo",
-			component: CreateLLOView
-    },
-    {
-      path: "/read-llo",
-      name: "read llo",
-			component: ReadLLOView
-    },
-    {
-      path: "/update-llo",
-      name: "update llo",
-			component: UpdateLLOView
-    },
-    {
-      path: "/delete-llo",
-      name: "delete llo",
-			component: DeleteLLOView
-    },
+    // {
+    //   path: "/create-llo",
+    //   name: "create llo",
+		// 	component: CreateLLOView
+    // },
+    // {
+    //   path: "/read-llo",
+    //   name: "read llo",
+		// 	component: ReadLLOView
+    // },
+    // {
+    //   path: "/update-llo",
+    //   name: "update llo",
+		// 	component: UpdateLLOView
+    // },
+    // {
+    //   path: "/delete-llo",
+    //   name: "delete llo",
+		// 	component: DeleteLLOView
+    // },
     {
       path: '/show-assignment',
       name: 'detail assignment',

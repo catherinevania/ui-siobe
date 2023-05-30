@@ -5,15 +5,11 @@ import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
-  <div class="container">
-    <Navbar />
-    <div class="wrapper">
-      <RouterView />
-    </div>
-  </div>
-  
+	<header>
+		<link href="/dist/output.css" rel="stylesheet">
+		<div class="wrapper">
+      <Navbar />
+		</div>
+	</header>
+	<RouterView />
 </template>
-
-<style scoped>
-</style>
-</script>
