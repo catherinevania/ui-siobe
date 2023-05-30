@@ -13,9 +13,5 @@ module.exports = {
 		},
 		},
     
-    plugins: [
-      require('flowbite/plugin')
-  ]
   }
->>>>>>> ff0d419ff7e828e89b1134ce75f448ce6dff6956
 };

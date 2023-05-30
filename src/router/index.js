@@ -47,19 +47,11 @@ const router = createRouter({
     //   name: "delete faculty",
 		// 	component: DeleteFacultyView
     // },
-<<<<<<< HEAD
-    {
-      path: "/llo",
-      name: "llo",
-			component: LLOView
-    },
-=======
     // {
     //   path: "/llo",
     //   name: "llo",
 		// 	component: LLOView
     // },
->>>>>>> ff0d419ff7e828e89b1134ce75f448ce6dff6956
     // {
     //   path: "/create-llo",
     //   name: "create llo",
@@ -80,19 +72,11 @@ const router = createRouter({
     //   name: "delete llo",
 		// 	component: DeleteLLOView
     // },
-<<<<<<< HEAD
-    {
-      path: '/show-assignment',
-      name: 'detail assignment',
-      component: DetailAssignmentView
-    },
-=======
     // {
     //   path: '/show-assignment',
     //   name: 'detail assignment',
     //   component: DetailAssignmentView
     // },
->>>>>>> ff0d419ff7e828e89b1134ce75f448ce6dff6956
   ]
 })
 
