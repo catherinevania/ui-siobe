@@ -7,14 +7,11 @@ import Navbar from './components/Navbar.vue';
 <template>
     <link href="/dist/output.css" rel="stylesheet" />
 
-  <div class="container">
+  <!-- <div class="container"> -->
     <Navbar />
     <div class="wrapper">
       <RouterView />
     </div>
-  </div>
+  <!-- </div> -->
   
 </template>
-
-<style scoped>
-</style>

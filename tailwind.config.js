@@ -12,5 +12,9 @@ module.exports = {
 				sans: ['Nunito', ...defaultTheme.fontFamily.sans],
 		},
 		},
+    
+    plugins: [
+      require('flowbite/plugin')
+  ]
   }
 };
