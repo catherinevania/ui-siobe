@@ -12,7 +12,7 @@
 				<a href="/create-faculty" class="bg-white drop-shadow px-3 py-3 rounded-lg mr-48">Create New Faculty</a>
 			</div>
 			<div class="flex justify-center items-center">
-				<table class="table-auto text-sm text-left text-gray-500 shadow-md sm:rounded-lg w-9/12">
+				<table class="table-auto text-sm text-left text-gray-500 shadow-md rounded-lg w-9/12">
 					<thead class="text-m text-gray-500 font-bold uppercase bg-gray-100">
 						<tr>
 							<th scope="col" class="px-6 py-3">
@@ -125,7 +125,6 @@
 					</tbody>
 				</table>
 			</div>
-
 		</div>
 	</div>
 </template>
