@@ -1,15 +1,19 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
-	<header>
-		<div class="wrapper">
-			<nav>
-				<RouterLink to="/faculty"></RouterLink>
-			</nav>
-		</div>
-	</header>
-
-	<RouterView />
+  <div class="container">
+    <Navbar />
+    <div class="wrapper">
+      <RouterView />
+    </div>
+  </div>
+  
 </template>
+
+<style scoped>
+</style>
+</script>
