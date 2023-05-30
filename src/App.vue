@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+<<<<<<< HEAD
 import HelloWorld from './components/HelloWorld.vue'
 import Navbar from './components/Navbar.vue';
 </script>
@@ -16,3 +17,18 @@ import Navbar from './components/Navbar.vue';
 
 <style scoped>
 </style>
+=======
+</script>
+
+<template>
+	<header>
+		<div class="wrapper">
+			<nav>
+				<RouterLink to="/faculty"></RouterLink>
+			</nav>
+		</div>
+	</header>
+
+	<RouterView />
+</template>
+>>>>>>> c8696ed74a13ce9d73f363c635653eb054720bf8
