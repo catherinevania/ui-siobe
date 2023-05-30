@@ -1,15 +1,9 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-	<header>
-		<div class="wrapper">
-			<nav>
-				<RouterLink to="/faculty"></RouterLink>
-			</nav>
-		</div>
-	</header>
-
-	<RouterView />
+  <link href="/dist/output.css" rel="stylesheet" />
+ 
+  <RouterView />
 </template>
