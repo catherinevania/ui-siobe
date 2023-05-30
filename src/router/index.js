@@ -47,11 +47,11 @@ const router = createRouter({
     //   name: "delete faculty",
 		// 	component: DeleteFacultyView
     // },
-    // {
-    //   path: "/llo",
-    //   name: "llo",
-		// 	component: LLOView
-    // },
+    {
+      path: "/llo",
+      name: "llo",
+			component: LLOView
+    },
     // {
     //   path: "/create-llo",
     //   name: "create llo",
