@@ -3,7 +3,7 @@
     class="bg-white border-gray-200"
   >
     <div
-      class="max-w-screen-xl flex  items-center justify-between py-4" style="padding-left: 5rem;"
+      class="max-w-screen-xl flex items-center justify-between py-4" style="padding-left: 5rem;"
     >
       <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
         <ul

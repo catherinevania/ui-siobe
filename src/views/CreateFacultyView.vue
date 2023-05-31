@@ -1,7 +1,7 @@
 <template>
 	<div class="h-screen w-screen bg-gray-50">
 		<div class="w-screen bg-white drop-shadow h-16 mb-10 flex align-center items-center">
-			<h1 class="text-gray-500 font-bold text-xl ml-48">Faculties</h1>
+			<h1 class="text-gray-500 font-bold text-xl ml-48">Create Faculty</h1>
 		</div>
 		<div class="ml-48 mb-10">
 			<h1 class="text-gray-500 font-bold text-m">Home > Faculties > Create</h1>

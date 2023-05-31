@@ -1,8 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import DashboardView from "../views/DashboardView.vue";
 import FacultyView from "../views/FacultyView.vue";
-import LLOView from "../views/LloView.vue";
-// import CreateFacultyView from "../views/CreateFacultyView.vue";
+import CreateFacultyView from "../views/CreateFacultyView.vue";
+// import UpdateFacutyView from "./views/UpdateFacultyView.vue";
+// import AssignmentView from "../views/AssignmentView.vue";
 // import ReadFacultyView from "../views/ReadFacultyView.vue";
 // import UpdateFacultyView from "../views/UpdateFacultyView.vue";
 // import DeleteFacultyView from "../views/DeleteFacultyView.vue";
@@ -27,31 +28,31 @@ const router = createRouter({
       name: "faculty",
 			component: FacultyView
     },
-    // {
-    //   path: "/create-faculty",
-    //   name: "create faculty",
-		// 	component: CreateFacultyView
-    // },
-    // {
-    //   path: "/read-faculty",
-    //   name: "read faculty",
-		// 	component: ReadFacultyView
-    // },
+    {
+      path: "/create-faculty",
+      name: "create faculty",
+			component: CreateFacultyView
+    },
     // {
     //   path: "/update-faculty",
     //   name: "update faculty",
-		// 	component: UpdateFacultyView
+		// 	component: UpdateFacutyView
+    // },
+		// {
+    //   path: "/assignment",
+    //   name: "assignment",
+		// 	component: AssignmentView
     // },
     // {
     //   path: "/delete-faculty",
     //   name: "delete faculty",
 		// 	component: DeleteFacultyView
     // },
-    {
-      path: "/llo",
-      name: "llo",
-			component: LLOView
-    },
+    // {
+    //   path: "/llo",
+    //   name: "llo",
+		// 	component: LLOView
+    // },
     // {
     //   path: "/create-llo",
     //   name: "create llo",
@@ -72,11 +73,11 @@ const router = createRouter({
     //   name: "delete llo",
 		// 	component: DeleteLLOView
     // },
-    // {
-    //   path: '/show-assignment',
-    //   name: 'detail assignment',
-    //   component: DetailAssignmentView
-    // },
+    {
+      path: '/show-assignment',
+      name: 'detail assignment',
+      component: DetailAssignmentView
+    },
   ]
 })
 
