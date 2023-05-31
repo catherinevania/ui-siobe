@@ -1,13 +1,13 @@
 <template>
   <nav
-    class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700"
+    class="bg-white border-gray-200"
   >
     <div
       class="max-w-screen-xl flex  items-center justify-between py-4" style="padding-left: 5rem;"
     >
       <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
         <ul
-          class="flex flex-col font-medium md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          class="flex flex-col font-medium md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white"
         >
           <li>
             <img
@@ -100,30 +100,30 @@
         <!-- Dropdown menu -->
         <div
           id="dropdownNavbar"
-          class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+          class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 "
         >
           <ul
-            class="py-2 text-sm text-gray-700 dark:text-gray-400"
+            class="py-2 text-sm text-gray-700"
             aria-labelledby="dropdownLargeButton"
           >
             <li>
               <a
                 href="#"
-                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                class="block px-4 py-2 hover:bg-gray-100"
                 >Dropdown 1</a
               >
             </li>
             <li>
               <a
                 href="#"
-                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                class="block px-4 py-2 hover:bg-gray-100"
                 >Dropdown 2</a
               >
             </li>
             <li>
               <a
                 href="#"
-                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                class="block px-4 py-2 hover:bg-gray-100"
                 >Dropdown 3</a
               >
             </li>
@@ -131,7 +131,7 @@
         </div>
       </div>
     </div>
-    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+    <hr class="h-px my-8 bg-gray-200 border-0" />
   </nav>
 </template>
 <script>
